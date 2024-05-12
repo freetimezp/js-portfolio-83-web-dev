@@ -1,6 +1,8 @@
 import React from 'react';
 import './header.css';
 
+import Facts from './facts/Facts';
+
 import profileImg from '../../images/profile.png';
 
 const Header = () => {
@@ -21,6 +23,7 @@ const Header = () => {
                                 omnis fuga nisi impedit!
                             </p>
                         </div>
+                        <Facts />
                         <div className="header__info__bottom">
                             <button className="btn">Download CV</button>
                             <a href='/' className="btn">Send Email</a>
