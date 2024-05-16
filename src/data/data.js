@@ -10,7 +10,7 @@ import { SiAdobexd } from "react-icons/si";
 export const menu = [
   { name: "About" },
   { name: "Services" },
-  { name: "Skill" },
+  { name: "Skills" },
   { name: "Projects" },
   { name: "Testimonial" },
   { name: "Contact" },

@@ -7,6 +7,14 @@
     width: 100%;
 }
 
+.navbar__container.visible {
+    background: rgba(24, 25, 25, 0.9);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
 .navbar__container .logo__container {
     display: flex;
     align-items: flex-end;
